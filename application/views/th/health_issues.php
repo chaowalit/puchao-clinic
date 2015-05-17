@@ -160,168 +160,271 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
-                    
-                    <div class="single-post-content">
-                        <h3>โรคเบาหวาน</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ปวดปัสสาวะบ่อย ,ปัสสาวะกลางคืนบ่อยขึ้น,กระหายน้ำ และดื่มน้ำในปริมาณมากๆต่อครั้ง,อ่อนเพลีย เหนื่อยง่ายไม่มีเรี่ยวแรง,เบื่ออาหาร,น้ำหนักตัวลดโดยไม่ทราบสาเหตุ 
-                            ,ติดเชื้อบ่อยกว่าปรกติ ,เมื่อเป็นแผลแล้วแผลจะหายยาก,สายตาพร่ามองไม่ชัดเจน,อาการชาไม่ค่อยมีความรู้สึก
-                        </p>
-                        
-                        <h3>ติดสูบบุหรี่</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            สูบบุหรี่มวนแรกของวันภายในครึ่งชั่วโมงหลังตื่น,เป็นการยากที่จะไม่สูบบุหรี่ในสถานที่ห้ามสูบบุหรี่,สูบบุหรี่ 10 มวนหรือมากกว่าต่อวัน,สูบบุหรี่ในช่วงเช้ามากกว่าช่วงเวลาอื่นของวัน,ยังคงสูบบุหรี่แม้ขณะที่คุณป่วยใช่ไหม
-                        </p>
-                        
-                        <h3>เสื่อมสมรรถภาพทางเพศ</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ผู้ชาย :ไม่สามารถแข็งตัวได้ตลอดการมีเพศสัมพันธ์,อวัยวะเพศไม่แข็งตัวเต็มที่,ไม่สามารถแข็งตัวเลย <br>
-                            หากคุณมีอาการดังกล่าวนานเกิน 2 เดือนหรืออาการเกิดซ้ำควรปรึกษาแพทย์ <br>
-                            
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ผู้หญิง :ไม่มีความต้องการทางเพศหรือความต้องการทางเพศลดลง,ไม่มีอารมณ์เวลาถูกกระตุ้นทางเพศ, รู้สึกอึกอัดเวลามีเพศสัมพันธุ์หรือไม่ถึงจุดสุดยอด
-                        </p>
-                        
-                        <h3>โรคเครียด</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มึนงง,ปวดตามกล้ามเนื้อ,กัดฟัน,ปวดศีรษะ,แน่นท้อง,เบื่ออาหาร,นอนหลับยาก,วิตกกังวล,โกรธง่าย,ร้องไห้ ,ซึมเศร้า, ท้อแท้ ,หงุดหงิด ,มองโลกในแง่ร้าย
-                        </p>
-                        
-                        <h3>โรคกระเพาะ</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ปวดบริเวณลิ้นปี,ปวดแบบแสบๆหรือร้อนๆ,ปวดเรื้อรังมานาน เป็นๆ หายๆ เป็นเดือนหรือเป็นปี,จุกเสียด แน่นท้อง ท้องอืด ท้องขึ้น ท้องเฟ้อ เรอลม มีลมในท้อง ร้อนในท้อง คลื่นไส้อาเจียน,อาเจียนเป็นเลือดดำ หรือแดง หรือถ่ายดำ 
-                        </p>
-                        
-                        <h3>โรคทางหู</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            หูอื้อ,หูตึง,หูดับ,หูแว่ว,มีเสียงดังผิดปรกติในหู
-                        </p>
-                        
-                        <h3>ไมเกรน</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ปวดศีรษะมักจะปวดข้างเดียว อาจจะสลับซ้ายขวาได้ ลักษณะปวดเป็นแบบตุ๊บๆๆๆ  น้อยรายที่จะปวดพร้อมกันสองข้าง ปวดมากจนทำงานไม่ได้,มีอาการคลื่นไส้อาเจียน,มีสิ่งที่กระตุ้นทำให้ปวดศีรษะได้แก่ แสงจ้า เย็นหรือร้อนจัด เสียงดัง
-                        </p>
-                        
-                        <h3>ความดันโลหิตสูง</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ปวดศีรษะ,เลือดกำเดาไหล,มึนงง,ตามัว,เหนื่อยง่าย,หายใจหอบ,แน่หน้าอก,
-                            โรคความดันโลหิตสูงส่วนใหญ่จะไม่มีอาการแนะนำให้วัดความดันทุกๆเดือน
-                        </p>
-                        
-                        <h3>ชะลอวัย</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ผิวหนังจะหมองคล้ำ ,ผิวหนังเสียความยืดหยุ่น,ผิวหนังจะเป็นรอยพับเหี่ยวย่นโดยเฉพาะบริเวณ ใบหน้า คอ หลัง
-                        </p>
-                        
-                        <h3>โรคซึมเศร้า</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            อารมณ์ซึมเศร้า,เหม่อลอย,หงุดหงิด,ก้าวร้าว,ขาดความสนใจสิ่งรอบข้าง,สมาธิเสีย,รู้สึกอ่อนเพลีย,เชื่องช้า ทำอะไรก็เชื่องช้าไปหมด,รับประทานอาหารมากขึ้นหรือน้อยลง,นอนมากขึ้นหรือน้อยลง,ตำหนิตัวเอง,พยายามฆ่าตัวตาย
-                        </p>
-                        
-                        <h3>นอนไม่หลับ</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            อาการหลับยาก,ข่มตาอย่างไรก็ไม่หลับหรือหลับๆ ตื่นๆ ,ตื่นเร็วกว่าปกติ ทั้งๆ ที่อยากนอนต่อ ต้องลุกขึ้นมาทำงานด้วยสภาพอิดโรย ไม่สดชื่น รู้สึกง่วงเวลาทำงาน  เหวี่ยงวีนคนรอบข้าง
-                        </p>
-                        
-                        
-                        
-                        <h3>ประจำเดือนผิดปกติ</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ประจำเดือนไม่มานานเกิน 3 เดือน, ประจำเดือนมามากผิดปกติหรือประจำเดือนมาไม่หยุด มากระปิดกระปอย ,มีตกขาวมาก มีกลิ่นเหม็น
-                        </p>
-                        
-                        <h3>ปรับสมดุลร่างกาย</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            เพื่อกระตุ้นระบบต่างๆในร่างกายให้ทำงานได้อย่างปกติมีประสิทธภาพ, กระตุ้นระบบภูมิคุ้มกันของร่างกาย กระตุ้นการไหลเวียนระบบลมปราณและระบบไหลเวียนโลหิต ร่างกายมีสุขภาพดี แข็งแรง
-                        </p>
-                        
-                        <h3>ปวดประจำเดือน</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            อาการปวดบีบเป็นพัก ๆ บริเวณท้องน้อย อาจร้าวไปถึงบริเวณหลัง บริเวณก้น หรือบริเวณต้นขาซึ่งอาจมีอาการคลื่นไส้ อาเจียน ท้องเสีย หน้ามืด เป็นลมร่วมด้วย ในบางรายเป็นมากไม่สามารถไปโรงเรียน หรือไปทำงานได้
-                        </p>
-                        
-                        <h3>ผมร่วง</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            ผมบาง,ผมร่วงจากกรรมพันธุ์ทั้งหญิงและชาย,ผมร่วงเป็นหย่อมๆ,ผมร่วงทั้งศีรษะ,ผมร่วงจากการแพ้สารเคมี
-                        </p>
-                        
-                        
-                        
-                        
-                        
-                        <h3>โรคอ้วน</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            อาการอ้วน น้ำหนักเกิน อ้วนลงพุง มีดัชนีมวลกาย BMI [body mass index] มีค่า 30 กิโลกรัม/(ม.)² ขึ้นไป 
-                            อาการหนื่อยง่าย , หายใจหอบเหนื่อย, ผู้ที่มีน้ำหนักตัวมาก ๆ มักมีความเครียด หงุดหงิด , โมโหง่าย, รู้สึกตัวเองมีปมด้อย 
-                        </p>
-                        
-                        
-                        
-                        <h3>สิวฝ้า</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มีสิว,ฝ้า,กระ,จุดด่างดำ,รวมทั้งริ้วรอย ตีนกา ที่เกิดขึ้นบริเวณใบหน้า เนื่องจากแพ้สารเคมี หรือระดับฮอร์โมนผิดปกติ
-                        </p>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        <h3>มีบุตรยาก</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            คู่สมรสไม่สามารถตั้งครรภ์ได้หลังจากพยายามให้มีบุตร ด้วยการมีเพศสัมพันธ์สม่ำเสมอโดยไม่ได้คลุมกำเนิดมาแล้วอย่างน้อย 1 ปี มักพบในผู้หญิงที่มีภาวะประจำเดือนผิดปกติมาไม่สม่ำเสมอ และพบในผู้ชายที่เชื้อสุจิไม่แข็งแรงเนื่องจากติดเหล้า ติดบุหรี่
-                        </p>
-                        
-                        <h3>อ่อนเพลียเรื้อรัง</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มีอาการอิดโรย  ,อ่อนเพลีย ไม่มีแรง  ,ปวดหัว-เวียนศีรษะ,นอนไม่หลับ,อารมณ์แปรปรวน , ขาดสมาธิ ฟุ้งซ่าน
-                        </p>
-                        
-                        
-                        
-                        <h3>อัลไซเมอร์</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มีอาการขี้หลงขี้ลืมหรือความจำเสื่อม,อารมณ์แปรปรวนหงุดหงิดง่าย,การตัดสินใจไม่ถูกต้อง,สับสนเรื่องเวลาและสถานที่,เดินเรื่อยเปื่อยอาจมีอาการกลั้นปัสสาวะไม่ได้
-                        </p>
-                        
-                        <h3>สมาธิสั้น</h3>
-                        <p style="background-color: #EAFFFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มีอาการวอกแวก คือ มีปัญหาในการจดจ่อกับสิ่งใดสิ่งหนึ่งอย่างเดียว, เคลื่อนไหวมากเกินไปคือ มีปัญหาในการอยู่นิ่งๆ , หุนหันพลันแล่น ใจร้อน คือ มักจะทำอะไรโดยไม่ทันได้คิด , และไม่มีสมาธิไม่จดจ่อ = มีปัญหาในการเอาใจใส่ให้ความใส่ใจ
-                        </p>
-                        
-                        <h3>เด็กออทิสติก</h3>
-                        <p style="background-color: #EBEEFF;padding: 10px 10px 10px 10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            มีความบกพร่องด้านปฏิสัมพันธ์ทางสังคมและการสื่อสาร และมีพฤติกรรมทำกิจกรรมบางอย่างซ้ำๆ   เช่น ไม่สนใจสิ่งแวดล้อมและบุคคล ชอบแยกตัวเล่นกับคนอื่นไม่เป็น,  เด็กไม่สามารถชี้นิ้วบอกถึงความต้องการ  , เด็กเล่นสมมุติไม่เป็น เช่น เล่นตุ๊กตา หรือไม่เข้าใจว่าควรจะจับตุ๊กตาในลักษณะใด ,  ไม่สามารถแสดงความสนใจร่วมกับบุคคลอื่นได้ เมื่อมีกิจกรรมกลุ่ม เด็กจะไม่สนใจ
-                        </p>
-                        
-                        
-                        
-                        <h3>อื่นๆ</h3>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h10.jpg" alt="สิวฝ้า" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">สิวฝ้า</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มีสิว,ฝ้า,กระ,จุดด่างดำ,รวมทั้งริ้วรอย ตีนกา ที่เกิดขึ้นบริเวณใบหน้า เนื่องจากแพ้สารเคมี หรือระดับฮอร์โมนผิดปกติ
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h11.jpg" alt="ไมเกรน" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">ไมเกรน</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ปวดศีรษะมักจะปวดข้างเดียว อาจจะสลับซ้ายขวาได้ ลักษณะปวดเป็นแบบตุ๊บๆๆๆ  น้อยรายที่จะปวดพร้อมกันสองข้าง ปวดมากจนทำงานไม่ได้,มีอาการคลื่นไส้อาเจียน,มีสิ่งที่กระตุ้นทำให้ปวดศีรษะได้แก่ แสงจ้า เย็นหรือร้อนจัด เสียงดัง
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h12.jpg" alt="โรคเครียด" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">โรคเครียด</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มึนงง,ปวดตามกล้ามเนื้อ,กัดฟัน,ปวดศีรษะ,แน่นท้อง,เบื่ออาหาร,นอนหลับยาก,วิตกกังวล,โกรธง่าย,ร้องไห้ ,ซึมเศร้า, ท้อแท้ ,หงุดหงิด ,มองโลกในแง่ร้าย
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h13.jpg" alt="โรคซึมเศร้า" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">โรคซึมเศร้า</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                อารมณ์ซึมเศร้า,เหม่อลอย,หงุดหงิด,ก้าวร้าว,ขาดความสนใจสิ่งรอบข้าง,สมาธิเสีย,รู้สึกอ่อนเพลีย,เชื่องช้า ทำอะไรก็เชื่องช้าไปหมด,
+                                รับประทานอาหารมากขึ้นหรือน้อยลง,นอนมากขึ้นหรือน้อยลง,ตำหนิตัวเอง,พยายามฆ่าตัวตาย
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h14.jpg" alt="นอนไม่หลับ" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">นอนไม่หลับ</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                อาการหลับยาก,ข่มตาอย่างไรก็ไม่หลับหรือหลับๆ ตื่นๆ ,ตื่นเร็วกว่าปกติ ทั้งๆ ที่อยากนอนต่อ ต้องลุกขึ้นมาทำงานด้วยสภาพอิดโรย ไม่สดชื่น รู้สึกง่วงเวลาทำงาน  เหวี่ยงวีนคนรอบข้าง
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h15.jpg" alt="ความดันโลหิตสูง" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">ความดันโลหิตสูง</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ปวดศีรษะ,เลือดกำเดาไหล,มึนงง,ตามัว,เหนื่อยง่าย,หายใจหอบ,แน่หน้าอก,
+                                โรคความดันโลหิตสูงส่วนใหญ่จะไม่มีอาการแนะนำให้วัดความดันทุกๆเดือน
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h16.jpg" alt="โรคเบาหวาน" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">โรคเบาหวาน</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ปวดปัสสาวะบ่อย ,ปัสสาวะกลางคืนบ่อยขึ้น,กระหายน้ำ และดื่มน้ำในปริมาณมากๆต่อครั้ง,อ่อนเพลีย เหนื่อยง่ายไม่มีเรี่ยวแรง,เบื่ออาหาร,น้ำหนักตัวลดโดยไม่ทราบสาเหตุ 
+                                ,ติดเชื้อบ่อยกว่าปรกติ ,เมื่อเป็นแผลแล้วแผลจะหายยาก,สายตาพร่ามองไม่ชัดเจน,อาการชาไม่ค่อยมีความรู้สึก
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h17.jpg" alt="อัลไซเมอร์" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">อัลไซเมอร์</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มีอาการขี้หลงขี้ลืมหรือความจำเสื่อม,อารมณ์แปรปรวนหงุดหงิดง่าย,การตัดสินใจไม่ถูกต้อง,สับสนเรื่องเวลาและสถานที่,เดินเรื่อยเปื่อยอาจมีอาการกลั้นปัสสาวะไม่ได้
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h18.jpg" alt="สมาธิสั้น" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">สมาธิสั้น</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มีอาการวอกแวก คือ มีปัญหาในการจดจ่อกับสิ่งใดสิ่งหนึ่งอย่างเดียว, เคลื่อนไหวมากเกินไปคือ มีปัญหาในการอยู่นิ่งๆ , หุนหันพลันแล่น ใจร้อน คือ 
+                                มักจะทำอะไรโดยไม่ทันได้คิด , และไม่มีสมาธิไม่จดจ่อ = มีปัญหาในการเอาใจใส่ให้ความใส่ใจ
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h19.jpg" alt="เด็กออทิสติก" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">เด็กออทิสติก</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มีความบกพร่องด้านปฏิสัมพันธ์ทางสังคมและการสื่อสาร และมีพฤติกรรมทำกิจกรรมบางอย่างซ้ำๆ   เช่น ไม่สนใจสิ่งแวดล้อมและบุคคล ชอบแยกตัวเล่นกับคนอื่นไม่เป็น,  
+                                เด็กไม่สามารถชี้นิ้วบอกถึงความต้องการ  , เด็กเล่นสมมุติไม่เป็น เช่น เล่นตุ๊กตา หรือไม่เข้าใจว่าควรจะจับตุ๊กตาในลักษณะใด ,  ไม่สามารถแสดงความสนใจร่วมกับบุคคลอื่นได้ เมื่อมีกิจกรรมกลุ่ม 
+                                เด็กจะไม่สนใจ
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h20.jpg" alt="ปวดประจำเดือน" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">ปวดประจำเดือน</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                อาการปวดบีบเป็นพัก ๆ บริเวณท้องน้อย อาจร้าวไปถึงบริเวณหลัง บริเวณก้น หรือบริเวณต้นขาซึ่งอาจมีอาการคลื่นไส้ อาเจียน ท้องเสีย หน้ามืด เป็นลมร่วมด้วย ในบางรายเป็นมากไม่สามารถไปโรงเรียน หรือไปทำงานได้
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h21.jpg" alt="ประจำเดือนผิดปกติ" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">ประจำเดือนผิดปกติ</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ประจำเดือนไม่มานานเกิน 3 เดือน, ประจำเดือนมามากผิดปกติหรือประจำเดือนมาไม่หยุด มากระปิดกระปอย ,มีตกขาวมาก มีกลิ่นเหม็น
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h22.jpg" alt="โรคกระเพาะ" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">โรคกระเพาะ</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ปวดบริเวณลิ้นปี,ปวดแบบแสบๆหรือร้อนๆ,ปวดเรื้อรังมานาน เป็นๆ หายๆ เป็นเดือนหรือเป็นปี,จุกเสียด แน่นท้อง ท้องอืด ท้องขึ้น ท้องเฟ้อ เรอลม มีลมในท้อง ร้อนในท้อง 
+                                คลื่นไส้อาเจียน,อาเจียนเป็นเลือดดำ หรือแดง หรือถ่ายดำ 
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h23.jpg" alt="โรคทางหู" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">โรคทางหู</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                หูอื้อ,หูตึง,หูดับ,หูแว่ว,มีเสียงดังผิดปรกติในหู
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h24.jpg" alt="โรคอ้วน" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">โรคอ้วน</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                อาการอ้วน น้ำหนักเกิน อ้วนลงพุง มีดัชนีมวลกาย BMI [body mass index] มีค่า 30 กิโลกรัม/(ม.)² ขึ้นไป 
+                                อาการหนื่อยง่าย , หายใจหอบเหนื่อย, ผู้ที่มีน้ำหนักตัวมาก ๆ มักมีความเครียด หงุดหงิด , โมโหง่าย, รู้สึกตัวเองมีปมด้อย 
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h25.jpg" alt="มีบุตรยาก" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">มีบุตรยาก</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                คู่สมรสไม่สามารถตั้งครรภ์ได้หลังจากพยายามให้มีบุตร ด้วยการมีเพศสัมพันธ์สม่ำเสมอโดยไม่ได้คลุมกำเนิดมาแล้วอย่างน้อย 1 ปี มักพบในผู้หญิงที่มีภาวะประจำเดือนผิดปกติมาไม่สม่ำเสมอ 
+                                และพบในผู้ชายที่เชื้อสุจิไม่แข็งแรงเนื่องจากติดเหล้า ติดบุหรี่
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h26.jpg" alt="ผมร่วง" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">ผมร่วง</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ผมบาง,ผมร่วงจากกรรมพันธุ์ทั้งหญิงและชาย,ผมร่วงเป็นหย่อมๆ,ผมร่วงทั้งศีรษะ,ผมร่วงจากการแพ้สารเคมี
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h27.jpg" alt="อ่อนเพลียเรื้อรัง" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">อ่อนเพลียเรื้อรัง</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                มีอาการอิดโรย  ,อ่อนเพลีย ไม่มีแรง  ,ปวดหัว-เวียนศีรษะ,นอนไม่หลับ,อารมณ์แปรปรวน , ขาดสมาธิ ฟุ้งซ่าน
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h28.jpg" alt="ติดสูบบุหรี่" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">ติดสูบบุหรี่</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                สูบบุหรี่มวนแรกของวันภายในครึ่งชั่วโมงหลังตื่น,เป็นการยากที่จะไม่สูบบุหรี่ในสถานที่ห้ามสูบบุหรี่,สูบบุหรี่ 10 มวนหรือมากกว่าต่อวัน,สูบบุหรี่ในช่วงเช้ามากกว่าช่วงเวลาอื่นของวัน,ยังคงสูบบุหรี่แม้ขณะที่คุณป่วยใช่ไหม
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h29.jpg" alt="เสื่อมสมรรถภาพทางเพศ" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">เสื่อมสมรรถภาพทางเพศ</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ผู้ชาย :ไม่สามารถแข็งตัวได้ตลอดการมีเพศสัมพันธ์,อวัยวะเพศไม่แข็งตัวเต็มที่,ไม่สามารถแข็งตัวเลย <br>
+                                หากคุณมีอาการดังกล่าวนานเกิน 2 เดือนหรืออาการเกิดซ้ำควรปรึกษาแพทย์ <br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ผู้หญิง :ไม่มีความต้องการทางเพศหรือความต้องการทางเพศลดลง,ไม่มีอารมณ์เวลาถูกกระตุ้นทางเพศ, รู้สึกอึกอัดเวลามีเพศสัมพันธุ์หรือไม่ถึงจุดสุดยอด
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h30.jpg" alt="ชะลอวัย" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">ชะลอวัย</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ผิวหนังจะหมองคล้ำ ,ผิวหนังเสียความยืดหยุ่น,ผิวหนังจะเป็นรอยพับเหี่ยวย่นโดยเฉพาะบริเวณ ใบหน้า คอ หลัง
+                            </div>
+                        </div>
+                    </div>
+                    <br> 
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h31.jpg" alt="ปรับสมดุลร่างกาย" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_old">
+                            <div class="caption"><a href="javascript:;">ปรับสมดุลร่างกาย</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                เพื่อกระตุ้นระบบต่างๆในร่างกายให้ทำงานได้อย่างปกติมีประสิทธภาพ, กระตุ้นระบบภูมิคุ้มกันของร่างกาย กระตุ้นการไหลเวียนระบบลมปราณและระบบไหลเวียนโลหิต ร่างกายมีสุขภาพดี แข็งแรง
+                            </div>
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-2"><a href="javascript:;"><img src="<?php echo base_url(); ?>assets/img/health_issues/h32.jpg" alt="อื่นๆ" class="image_radius"></a></div>
+                        <div class="col-xs-10 number_even">
+                            <div class="caption"><a href="javascript:;">อื่นๆ</a></div>
+                            <div class="intro">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                ...
+                            </div>
+                        </div>
                     </div>
                     
                 </div>

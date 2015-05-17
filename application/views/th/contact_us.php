@@ -23,8 +23,8 @@
                 <p class="contact-us-details">
                     <b>ที่ตั้ง:</b> ปู่เจ้าฯไทย - จีน คลินิกการแพทย์แผนไทย 83/1 ม.9 ถ.ปู่เจ้าฯ ต.สำโรงกลาง อ.พระประแดง จ.สมุทรปราการ 10130<br/>
                     <b>Tel:</b> 081-250-9579<br/>
-                    <b>Tel:</b> 091-565-8164<br/>
-                    <b>อีเมล:</b> <a href="mailto:wanjung_hihi@hotmail.com">wanjung_hihi@hotmail.com</a>
+                    <b>Tel:</b> 098-563-9330<br/>
+                    <b>อีเมล:</b> <a href="mailto:puchao-acupuncture@hotmail.com">puchao-acupuncture@hotmail.com</a>
                 </p>
                 <!-- End Contact Info -->
             </div>
