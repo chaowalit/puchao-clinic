@@ -42,7 +42,7 @@
                     <!-- Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/0110.jpg" alt="ฝังเข็ม 1 ครั้ง"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ยอดฮิต</b> - ฝังเข็ม 1 ครั้ง</a></div>
@@ -71,7 +71,7 @@
                     <!-- End Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/0110.jpg" alt="ฝังเข็ม 7 ครั้ง"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>คอร์สเล็ก</b> - ฝังเข็ม 7 ครั้ง</a></div>
@@ -99,7 +99,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/0110.jpg" alt="ฝังเข็ม 15 ครั้ง"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>คอร์สใหญ่</b> - ฝังเข็ม 15 ครั้ง</a></div>
@@ -166,7 +166,7 @@
                     <!-- Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/2222.jpg" alt="ครอบแก้ว หรือ ปล่อยเลือด"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ยอดฮิต</b> - ครอบแก้ว หรือ ปล่อยเลือด 1 ครั้ง</a></div>
@@ -191,7 +191,7 @@
                     <!-- End Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/2222.jpg" alt="ครอบแก้ว หรือ ปล่อยเลือด"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>คอร์สเล็ก</b> - ครอบแก้ว หรือ ปล่อยเลือด 7 ครั้ง</a></div>
@@ -215,7 +215,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/2222.jpg" alt="ครอบแก้ว หรือ ปล่อยเลือด"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>คอร์สใหญ่</b> - ครอบแก้ว หรือ ปล่อยเลือด 15 ครั้ง</a></div>
@@ -278,7 +278,7 @@
                     <!-- Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/7.jpg" alt="ยาสมุนไพรจีน"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ชุดทดลอง</b> - ระยะเวลา 3 วัน</a></div>
@@ -303,7 +303,7 @@
                     <!-- End Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/7.jpg" alt="ยาสมุนไพรจีน"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ชุดมาตรฐาน</b> - ระยะเวลา 7 วัน</a></div>
@@ -327,7 +327,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/7.jpg" alt="ยาสมุนไพรจีน"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ชุดบำรุง</b> - ระยะเวลา 15 วัน</a></div>
@@ -351,7 +351,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/7.jpg" alt="ยาสมุนไพรจีน"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ชุดบำรุง</b> - ระยะเวลา 30 วัน</a></div>
@@ -387,7 +387,7 @@
                     <!-- Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/9999.jpg" alt="เข็มไพโอนิก"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>เข็มไพโอนิก</b> - แปะบนหู หรือ แปะบนจุดฝังเข็ม</a></div>
@@ -412,7 +412,7 @@
                     <!-- End Shopping Cart Item -->
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/5.jpg" alt="กัวซา"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>กัวซา</b></a></div>
@@ -436,7 +436,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/11.jpg" alt="พอกหน้า"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>พอกหน้า</b></a></div>
@@ -460,7 +460,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/6.jpg" alt="ปลูกผม"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>ปลูกผม</b></a></div>
@@ -484,7 +484,7 @@
                     </tr>
                     <tr>
                         <!-- Shopping Cart Item Image -->
-                        <td class="image"><a href="#"><img src="img/product1.jpg" alt="Item Name"></a></td>
+                        <td class="image"><a href="#"><img src="<?php echo base_url(); ?>assets/img/home/100.jpg" alt="บริการถึงบ้าน"></a></td>
                         <!-- Shopping Cart Item Description & Features -->
                         <td>
                             <div class="cart-item-title"><a href="#"><b>บริการถึงบ้าน</b></a></div>
