@@ -105,7 +105,15 @@ class login extends ci_controller_lib{
         redirect('admin/login/patient', 'refresh');
     }
     public function medical_records($patient_id){
+        $this->db->select('*');
+        $this->db->from('patient');
+        $this->db->where('id', $patient_id);
+        $this->db->where('active', 1);
+        $this->db->order_by('udate', 'desc');
+        $query = $this -> db -> get();
+        $result = $query->result_array();
         
+        $data['patient_data'] = $result;
         
         $data['patient_id'] = $patient_id;
         $data['page'] = 2;
