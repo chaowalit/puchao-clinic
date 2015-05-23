@@ -2,24 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/service.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/patient.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/assets/css/main.css</file>
-            <file>file:/C:/wamp/www/puchao-clinic/assets/less/components.less</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/medical_records.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/asked.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/health_issues.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/welcome_message.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/dashboard.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/controllers/th/treatment_rates.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/header.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/login_view.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/header.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/form_patient.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/controllers/admin/login.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/th/treatment_rates.php</file>
-            <file>file:/C:/wamp/www/puchao-clinic/application/views/admin/footer.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

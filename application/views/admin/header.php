@@ -17,7 +17,28 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-<script src="<?php echo base_url(); ?>assets/admin/js/jquery-1.7.2.min.js"></script>   
+<script src="<?php echo base_url(); ?>assets/admin/js/jquery-1.7.2.min.js"></script>
+<!-- jquery ui -->
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/jquery_ui.css">
+<script src="<?php echo base_url(); ?>assets/js/jquery-ui.js"></script>
+<!-- end jquery ui -->
+
+<script>
+    $(function() {
+        $("#datepicker-en").datepicker({dateFormat: 'dd/mm/yy'});
+        var d = new Date();
+        var toDay = d.getDate() + '-' + (d.getMonth() + 1) + '-' + d.getFullYear();
+        $("#the_next_appointments").datepicker({changeMonth: true, changeYear: true, dateFormat: 'dd-mm-yy', isBuddhist: true, defaultDate: toDay, dayNames: ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัสบดี', 'ศุกร์', 'เสาร์'],
+            dayNamesMin: ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'],
+            monthNames: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            monthNamesShort: ['ม.ค.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.']
+        });
+        
+        //$('#implementation_time').timepicker({ 'timeFormat': 'H:i:s' });
+        //$('#implementation_time').datepicker({ dateFormat: 'HH:ii:ss' }).val();
+    });
+</script>
+
 </head>
 <body>
 <div class="navbar navbar-fixed-top">

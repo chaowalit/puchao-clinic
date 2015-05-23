@@ -63,7 +63,7 @@
             <!-- /widget-header -->
             <div class="widget-content">
               <ul class="messages_layout">
-                <li class="from_user left"> <a href="#" class="avatar"><img src="img/message_avatar1.png"/></a>
+                <li class="from_user left"> <a href="#" class="avatar"><div class="news-item-date"> <span class="news-item-day">29</span> <span class="news-item-month">Aug------</span>  <span class="news-item-title">2015</span></div></a>
                   <div class="message_wrap"> <span class="arrow"></span>
                     <div class="info"> <a class="name">John Smith</a> <span class="time">1 hour ago</span>
                       <div class="options_arrow">

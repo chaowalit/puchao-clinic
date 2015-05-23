@@ -126,7 +126,7 @@
                         </div>
                         <!-- Product Title -->
                         <div class="title">
-                            <h3><a href="#">ยาสมุนไฟรจีน</a></h3>
+                            <h3><a href="#">ยาสมุนไพรจีน</a></h3>
                         </div>
                         
                     </div>

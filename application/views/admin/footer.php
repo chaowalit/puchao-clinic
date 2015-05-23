@@ -34,6 +34,7 @@
         $("#dataTables-example").dataTable();
     });
 </script>
+
 <script>     
 
         var lineChartData = {
