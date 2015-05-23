@@ -86,12 +86,12 @@
                             <br>
                             
                             
-
+                            <div class="show_main">
                                 <?php foreach ($medical_records_data as $value) { 
                                     $show_date_temp = date("Y-m-d", strtotime($value['date_medical_records']));
                                     $show_date = explode('-', $show_date_temp);
                                 ?>
-                                    <div>
+                                    <div class="show_element widget" id="show_medical_<?php echo $value['id']; ?>" >
                                         <div class="span1" style="border: 1px solid #ccc;border-radius: 4px 4px 4px 4px;">   
                                             <div class="news-item-date"> 
                                                 <span class="news-item-day"><?php echo $show_date[2]; ?></span> <span class="news-item-month"><?php echo date("F", strtotime($value['date_medical_records'])); ?></span>  <span class="news-item-title"><?php echo $show_date[0]; ?></span>
@@ -103,43 +103,43 @@
                                                     
                                                         <div class="dropdown pull-right"> <a class="dropdown-toggle " id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#"> <i class=" icon-list-ul"> จัดการ</i> </a>
                                                             <ul class="dropdown-menu " role="menu" aria-labelledby="dLabel">
-                                                                <li><a href="#myModal" role="button" class="" data-toggle="modal"><i class=" icon-edit icon-large"></i> Edit</a></li>
-                                                                <li><a href="#"><i class=" icon-trash icon-large"></i> Delete</a></li>
+                                                                <li><a onclick ="edit_medical_record(<?php echo $value['id']; ?>)" href="#myModal" role="button" data-toggle="modal"><i class=" icon-edit icon-large"></i> Edit</a></li>
+                                                                <li><a onclick ="del_medical_record(<?php echo $value['id']; ?>)" href="javascript:void(0)"><i class=" icon-trash icon-large"></i> Delete</a></li>
                                                                 <!--<li><a href="#"><i class=" icon-share icon-large"></i> Share</a></li>-->
                                                             </ul>
                                                         </div>
                                                     
                                                 </div>
                                                 <div class="text news-item-preview"> 
-                                                     <table class="table table-striped table-bordered">
+                                                     <table class="table table-striped ">
                                                         <tbody>
                                                             <tr>
-                                                                <td colspan="2">อาการหลัก : <?php echo $value['symptom_main']; ?></td>
-                                                                <td colspan="2">อาการร่วม : <?php echo $value['joint_symptoms']; ?></td>
+                                                                <td colspan="2"><b>อาการหลัก : </b><?php echo $value['symptom_main']; ?></td>
+                                                                <td colspan="2"><b>อาการร่วม : </b><?php echo $value['joint_symptoms']; ?></td>
                                                             </tr>
                                                             <tr>
-                                                                <td>ลิ้น : <?php echo $value['tongue']; ?> <br>ชีพจร : <?php echo $value['pulse']; ?></td>
-                                                                <td>วินิจฉัย : <?php echo $value['diagnose']; ?></td>
-                                                                <td colspan="2">หลักการรักษา : <?php echo $value['treatment_principles']; ?></td>
+                                                                <td><b>ลิ้น : </b><?php echo $value['tongue']; ?> <br>ชีพจร : <?php echo $value['pulse']; ?></td>
+                                                                <td><b>วินิจฉัย : </b><?php echo $value['diagnose']; ?></td>
+                                                                <td colspan="2"><b>หลักการรักษา : </b><?php echo $value['treatment_principles']; ?></td>
                                                             </tr>
                                                             <tr>
-                                                                <td>BP : <?php echo $value['blood_pressure']; ?> mm/Hg</td>
-                                                                <td>P : <?php echo $value['pulse_beats']; ?> ครั้ง/นาที</td>
-                                                                <td>น้ำหนัก : <?php echo $value['weight']; ?> กก.</td>
-                                                                <td>ส่วนสูง : <?php echo $value['height']; ?> ซฒ.</td>
+                                                                <td><b>BP : </b><?php echo $value['blood_pressure']; ?> mm/Hg</td>
+                                                                <td><b>P : </b><?php echo $value['pulse_beats']; ?> ครั้ง/นาที</td>
+                                                                <td><b>น้ำหนัก : </b><?php echo $value['weight']; ?> กก.</td>
+                                                                <td><b>ส่วนสูง : </b><?php echo $value['height']; ?> ซม.</td>
                                                             </tr>
                                                             <tr>
-                                                                <td>ระดับการปวด : <?php echo $value['pain_level']; ?></td>
-                                                                <td>ระดับการชา : <?php echo $value['cramp_level']; ?></td>
-                                                                <td>ระดับการเคลื่อนไหว : <?php echo $value['motion_level']; ?></td>
-                                                                <td>ใช้บริการ : <?php echo $value['service_use']; ?></td>
+                                                                <td><b>ระดับการปวด : </b><?php echo $value['pain_level']; ?></td>
+                                                                <td><b>ระดับการชา : </b><?php echo $value['cramp_level']; ?></td>
+                                                                <td><b>ระดับการเคลื่อนไหว : </b><?php echo $value['motion_level']; ?></td>
+                                                                <td><b>ใช้บริการ : </b><?php echo $value['service_use']; ?></td>
                                                             </tr>
                                                             <tr>
-                                                                <td colspan="4">จุดฝังเข็ม/ยาสมุนไพร : <?php echo $value['acupuncture_points']; ?></td>
+                                                                <td colspan="4"><b>จุดฝังเข็ม/ยาสมุนไพร : </b><?php echo $value['acupuncture_points']; ?></td>
                                                             </tr>
                                                             <tr>
-                                                                <td colspan="2">แพทย์ผู้ตรวจ : <?php echo $value['doctors_who_examine']; ?></td>
-                                                                <td colspan="2">นัดครั้งต่อไป : <?php echo ($value['the_next_appointments'] != "0000-00-00 00:00:00")? date("d-m-Y H:i:s", strtotime($value['the_next_appointments'])) : ""; ?></td>
+                                                                <td colspan="2"><b>แพทย์ผู้ตรวจ : </b><?php echo $value['doctors_who_examine']; ?></td>
+                                                                <td colspan="2"><b>นัดครั้งต่อไป : </b><?php echo ($value['the_next_appointments'] != "0000-00-00 00:00:00")? date("d-m-Y H:i:s", strtotime($value['the_next_appointments'])) : ""; ?></td>
                                                             </tr>
                                                         </tbody>
                                                      </table>
@@ -148,7 +148,7 @@
                                         </div>
                                     </div>
                                 <?php } ?>
-                                
+                            </div>   
                             
                             <!-- /widget-content --> 
                             <br>
@@ -181,7 +181,7 @@
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" aria-hidden="true" style="width: 800px;left: 40%;top: 50%;">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick = "clean_data_in_form()">×</button>
         <h3 id="myModalLabel">ฟอร์มการบันทึกประวัติการรักษา</h3>
     </div>
     <div class="modal-body">
@@ -327,10 +327,11 @@
                 </div> <!-- /control-group -->
             </fieldset>
             <input type="hidden" name="patient_id" id="patient_id" value="<?php echo $patient_id; ?>">
+            <input type="hidden" name="medical_records_id" id="medical_records_id" value="">
         </form>
     </div>
     <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">ยกเลิก</button>
+        <button class="btn" data-dismiss="modal" aria-hidden="true" onclick = "clean_data_in_form()">ยกเลิก</button>
         <button class="btn btn-primary" id="btn_submit_medical">บันทึกข้อมูล</button>
     </div>
 </div>
@@ -370,6 +371,38 @@
         });
         
     });
+    function del_medical_record(medical_records_id){
+        if(confirm("คุณต้องการลบประวัติการรักษานี้หรือไม่...")){
+             $.ajax({
+                    url: "<?php echo base_url(); ?>index.php/admin/login/del_medical_record",
+                    data: {
+                        medical_records_id: medical_records_id
+                    },
+                    error: function() {
+                         //$('#info').html('<p>An error has occurred</p>');
+                         alert('An error has occurred');
+                    },
+                    dataType: 'html',
+                    success: function(data) {
+                        if($.trim(data) == "success"){
+                            $("#show_medical_"+medical_records_id).delay(600).fadeOut(400);
+                            setTimeout(function() {
+                              $("#show_medical_"+medical_records_id).remove();
+                            }, 2000);
+                        }
+                    },
+                    type: 'POST'
+            });
+        }
+    }
+    function edit_medical_record(medical_records_id){
+        alert(medical_records_id);
+    }
+    function clean_data_in_form(){
+        $("input.span1,input.span2,input.span3,input.span4,input.span5,input.span6").val("");
+        $("textarea.span1,textarea.span2,textarea.span3,textarea.span4,textarea.span5,textarea.span6").val("");
+        $("input[type='checkbox']").attr("checked", false);
+    }
 </script>
 
 <style>

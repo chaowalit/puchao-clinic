@@ -123,7 +123,7 @@ class login extends ci_controller_lib{
 
         $query = $this -> db -> get();
         $result = $query->result_array();
-        
+
         if(is_array($result)){
             $data['medical_records_data'] = $result;
         }else{
@@ -174,5 +174,13 @@ class login extends ci_controller_lib{
         $this->db->insert('medical_records', $data);
         
         redirect('admin/login/medical_records/'.$this->input->post('patient_id'), 'refresh');
+    }
+
+    public function del_medical_record(){
+        $medical_records_id = $this->input->post('medical_records_id');
+
+        $this->db->where('id', $medical_records_id);
+        $this->db->delete('medical_records'); 
+        echo "success";
     }
 }
