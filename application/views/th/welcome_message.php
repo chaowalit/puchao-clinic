@@ -674,37 +674,40 @@
                     <div class="contact-form-wrapper">
                         <form class="form-horizontal" role="form">
                             <div class="form-group">
-                                <label for="Name" class="col-sm-3 control-label"><b>Your name</b></label>
+                                <label for="contact_name" class="col-sm-3 control-label"><b>ชื่อ-นามสกุล</b></label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" id="Name" type="text" placeholder="">
+                                    <input class="form-control" name="contact_name" id="contact_name" type="text" placeholder="ชื่อ-นามสกุล">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="contact-email" class="col-sm-3 control-label"><b>Your Email</b></label>
+                                <label for="contact_email" class="col-sm-3 control-label"><b>อีเมล</b></label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" id="contact-email" type="text" placeholder="">
+                                    <input class="form-control" name="contact_email" id="contact_email" type="text" placeholder="อีเมล">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="contact-message" class="col-sm-3 control-label"><b>Select Topic</b></label>
+                                <label for="contact_tel" class="col-sm-3 control-label"><b>โทรศัพท์</b></label>
                                 <div class="col-sm-9">
-                                    <select class="form-control" id="prependedInput">
-                                        <option>Please select topic...</option>
-                                        <option>General</option>
-                                        <option>Services</option>
-                                        <option>Orders</option>
-                                    </select>
+                                    <input class="form-control" name="contact_tel" id="contact_tel" type="text" placeholder="โทรศัพท์">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="contact-message" class="col-sm-3 control-label"><b>Message</b></label>
+                                <label for="contact_message" class="col-sm-3 control-label"><b>ข้อความ</b></label>
                                 <div class="col-sm-9">
-                                    <textarea class="form-control" rows="5" id="contact-message"></textarea>
+                                    <textarea class="form-control" rows="3" name="contact_message" id="contact_message" placeholder="ข้อความ"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-3 control-label"><b>ใส่ข้อความ</b></label>
+                                <div class="col-sm-9">
+                                    <?php
+                                      echo $recaptcha_html;
+                                    ?>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <button type="submit" class="btn pull-right">Send</button>
+                                    <button type="submit" class="btn pull-right">ส่งข้อความ</button>
                                 </div>
                             </div>
                         </form>

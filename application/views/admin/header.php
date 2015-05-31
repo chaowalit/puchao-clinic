@@ -83,8 +83,8 @@
       <ul class="mainnav">
         <li <?php echo ($page == 1)? "class=\"active\"":" " ?>><a href="<?php echo base_url(); ?>index.php/admin/login/dashboard"><i class="icon-dashboard"></i><span>ภาพรวม</span> </a> </li>
         <li <?php echo ($page == 2)? "class=\"active\"":" " ?>><a href="<?php echo base_url(); ?>index.php/admin/login/patient"><i class="icon-user"></i><span>ผู้ป่วย</span> </a> </li>
-        <li><a href="guidely.html"><i class="icon-tag"></i><span>โปรโมชั่น</span> </a></li>
-        <li><a href="charts.html"><i class="icon-comment"></i><span>Message</span> </a> </li>
+        <li><a href="#"><i class="icon-tag"></i><span>โปรโมชั่น</span> </a></li>
+        <li><a href="#"><i class="icon-comment"></i><span>Message</span> </a> </li>
         
         <!--<li><a href="shortcodes.html"><i class="icon-code"></i><span>Shortcodes</span> </a> </li>
         <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-long-arrow-down"></i><span>Drops</span> <b class="caret"></b></a>

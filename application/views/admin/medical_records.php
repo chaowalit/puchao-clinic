@@ -118,7 +118,7 @@
                                                                 <td colspan="2"><b>อาการร่วม : </b><?php echo $value['joint_symptoms']; ?></td>
                                                             </tr>
                                                             <tr>
-                                                                <td><b>ลิ้น : </b><?php echo $value['tongue']; ?> <br>ชีพจร : <?php echo $value['pulse']; ?></td>
+                                                                <td><b>ลิ้น : </b><?php echo $value['tongue']; ?> <br><b>ชีพจร : </b><?php echo $value['pulse']; ?></td>
                                                                 <td><b>วินิจฉัย : </b><?php echo $value['diagnose']; ?></td>
                                                                 <td colspan="2"><b>หลักการรักษา : </b><?php echo $value['treatment_principles']; ?></td>
                                                             </tr>
@@ -150,13 +150,26 @@
                                 <?php } ?>
                             </div>   
                             
-                            <!-- /widget-content --> 
-                            <br>
+                            <!-- /widget-content -->
+                            <div class="span5">
+                                &nbsp;
+                            </div>
+                            <div class="span2">
+                                <div class="progress progress-striped active show-hide-load" style="width:100%;">
+                                    <div class="bar" style="width: 100%;">Loading...</div>
+                                </div>
+                            </div>
+                            <div class="span4">
+                                &nbsp;
+                            </div>
+                            
+                        
                             <!-- /widget --> 
                             <div class="widget widget-nopad">
-                                
+                                <input type="hidden" name="want" id="want" value="<?php echo $want; ?>">
+                                <input type="hidden" name="start" id="start" value="<?php echo $start; ?>"> 
                                 <!-- /widget-content --> 
-                                <div class="widget-box"><a href="#"><i class="icon-refresh"></i>
+                                <div class="widget-box"><a href="javascript:void(0)" id="load_data_element"><i class="icon-refresh"></i>
                                     โหลดประวัติการรักษาก่อนหน้านี้</a>
                                 </div>
                             </div>
@@ -182,7 +195,7 @@
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" aria-hidden="true" style="width: 800px;left: 40%;top: 50%;">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick = "clean_data_in_form()">×</button>
-        <h3 id="myModalLabel">ฟอร์มการบันทึกประวัติการรักษา</h3>
+        <h3 id="myModalLabel">ฟอร์มบันทึกประวัติการรักษา</h3>
     </div>
     <div class="modal-body">
         <form id="form_medical" class="form-horizontal" action="<?php echo base_url(); ?>index.php/admin/login/save_medical_records" method="POST" accept-charset="utf-8">
@@ -369,7 +382,27 @@
             $("#form_medical").submit();
             
         });
-        
+        //----------------------------------------------------------------------------------------
+        $(".show-hide-load").hide();
+        $("#load_data_element").click(function(){
+            $(".show-hide-load").show();
+            var num_start = $("div.show_main div.show_element").length;
+            $.ajax({
+                url: "<?php echo base_url(); ?>index.php/admin/login/load_data_medical_record",
+                data: {num_start : num_start, patient_id: $("#patient_id").val()},
+                error: function(){
+                    alert('An error has occurred');
+                },
+                dataType: 'html',
+                success: function(data) {
+                    $("div.show_main div.show_element").last().append(data);
+                    $(".show-hide-load").hide();
+                },
+                type: 'POST'
+            });
+            
+        });
+        //-----------------------------------------------------------------------------------------
     });
     function del_medical_record(medical_records_id){
         if(confirm("คุณต้องการลบประวัติการรักษานี้หรือไม่...")){
@@ -396,12 +429,70 @@
         }
     }
     function edit_medical_record(medical_records_id){
-        alert(medical_records_id);
+        //alert(medical_records_id);
+        $("h3#myModalLabel").html("ฟอร์มแก้ไขประวัติการรักษา");
+        $.ajax({
+                url: "<?php echo base_url(); ?>index.php/admin/login/edit_medical_record",
+                data: {
+                    medical_records_id: medical_records_id
+                },
+                error: function() {
+                     //$('#info').html('<p>An error has occurred</p>');
+                     alert('An error has occurred');
+                },
+                dataType: 'json',
+                success: function(data) {
+                    console.log(data);
+                    $("#symptom_main").val(data[0].symptom_main);
+                    $("#joint_symptoms").val(data[0].joint_symptoms);
+                    $("#tongue").val(data[0].tongue);
+                    $("#pulse").val(data[0].pulse);
+                    $("#diagnose").val(data[0].diagnose);
+                    $("#treatment_principles").val(data[0].treatment_principles);
+                    $("#blood_pressure").val(data[0].blood_pressure);
+                    $("#pulse_beats").val(data[0].pulse_beats);
+                    $("#weight").val(data[0].weight);
+                    $("#height").val(data[0].height);
+                    $("#pain_level").val(data[0].pain_level);
+                    $("#cramp_level").val(data[0].cramp_level);
+                    $("#motion_level").val(data[0].motion_level);
+
+                    var temp = data[0].service_use;
+                    var str_service = temp.split(",");
+                    for ( var i = 0; i < str_service.length; i++) {
+                        $(':checkbox').each(function(){
+                            if(str_service[i] == $(this).val()){
+                                //alert('kkk');
+                                $(this).prop('checked', true);
+                            }
+                        });
+                    }
+                    
+
+
+                    $("#acupuncture_points").val(data[0].acupuncture_points);
+                    $("#doctors_who_examine").val(data[0].doctors_who_examine);
+                    //--------- วันนัดหมาย ---------------//
+                    var str = data[0].the_next_appointments;
+                    var res = str.split(" ");
+                    var str_date = res[0].split("-");
+                    $("#the_next_appointments").val(str_date[2]+"-"+str_date[1]+"-"+str_date[0]);
+                    var str_time = res[1].split(":");
+                    $("#time_1").val(str_time[0]);
+                    $("#time_2").val(str_time[1]);
+                    $("#time_3").val(str_time[2]);
+                    //----------------------------------
+                    $("#medical_records_id").val(data[0].id);
+                },
+                type: 'POST'
+        });
     }
     function clean_data_in_form(){
         $("input.span1,input.span2,input.span3,input.span4,input.span5,input.span6").val("");
         $("textarea.span1,textarea.span2,textarea.span3,textarea.span4,textarea.span5,textarea.span6").val("");
         $("input[type='checkbox']").attr("checked", false);
+        $("h3#myModalLabel").html("ฟอร์มบันทึกประวัติการรักษา");
+        $("#medical_records_id").val('');
     }
 </script>
 

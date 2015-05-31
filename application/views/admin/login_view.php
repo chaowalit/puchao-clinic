@@ -18,14 +18,14 @@
             </div>
             <div class="col-sm-4">
                 <div class="basic-login">
-                    <form role="form" role="form" action="<?php echo base_url(); ?>index.php/admin/login/dashboard" method="POST">
+                    <form role="form" role="form" action="<?php echo base_url(); ?>index.php/admin/login/check_login" method="POST">
                         <div class="form-group">
                             <label for="login-username"><i class="icon-user"></i> <b>Username or Email</b></label>
-                            <input class="form-control" id="login-username" type="text" placeholder="Username or Email">
+                            <input class="form-control" name="login_username" id="login_username" type="text" placeholder="Username or Email">
                         </div>
                         <div class="form-group">
                             <label for="login-password"><i class="icon-lock"></i> <b>Password</b></label>
-                            <input class="form-control" id="login-password" type="password" placeholder="Password">
+                            <input class="form-control" name="login_password" id="login_password" type="password" placeholder="Password">
                         </div>
                         <div class="form-group">
                             

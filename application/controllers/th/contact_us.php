@@ -11,9 +11,13 @@ class contact_us extends CI_Controller {
     }
     public function index()
     {   
+        //----------------------------------------------------
+        $this->load->library('recaptcha');
+        $data['recaptcha_html'] = $this->recaptcha->recaptcha_get_html();
+        //----------------------------------------------------
         $config['center'] = '13.646293, 100.578208';
         $config['zoom'] = 14;
-        $config['map_height'] = '300px';
+        $config['map_height'] = '350px';
         $this->googlemaps->initialize($config);
 
         $marker = array();
