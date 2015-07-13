@@ -30,7 +30,7 @@
             </div>
             <div class="col-sm-5">
                 <!-- Contact Form -->
-                <h3>Send Us a Message</h3>
+                <h3>ส่งข้อความถึงคลินิก</h3>
                 <div class="contact-form-wrapper">
                     <form class="form-horizontal" role="form">
                         <div class="form-group">

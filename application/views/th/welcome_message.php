@@ -670,9 +670,9 @@
                 </div>
                 <div class="col-sm-5">
                     <!-- Contact Form -->
-                    <h3>Send Us a Message</h3>
+                    <h3>ส่งข้อความถึงคลินิก</h3>
                     <div class="contact-form-wrapper">
-                        <form class="form-horizontal" role="form">
+                        <form class="form-horizontal" role="form" action="<?php echo base_url(); ?>index.php/message/add_message" method="POST">
                             <div class="form-group">
                                 <label for="contact_name" class="col-sm-3 control-label"><b>ชื่อ-นามสกุล</b></label>
                                 <div class="col-sm-9">
